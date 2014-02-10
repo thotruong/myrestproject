@@ -3,6 +3,7 @@
   <groupId>myrestproject</groupId>
   <artifactId>myrestproject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
   <name>managedStage</name>
   <description>services</description>
 <repositories>
