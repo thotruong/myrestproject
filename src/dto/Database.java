@@ -1,10 +1,11 @@
-package dao;
+package dto;
  
 import java.sql.Connection;
 import java.sql.DriverManager;
  
 public class Database
 {
+
 	public Connection getConnection() throws Exception
 	{
 		try
@@ -18,7 +19,6 @@ public class Database
 		{
 			throw e;
 		}
- 
 	}
  
 }

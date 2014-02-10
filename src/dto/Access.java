@@ -1,4 +1,4 @@
-package dao;
+package dto;
  
 import java.sql.Connection;
 import java.sql.PreparedStatement;

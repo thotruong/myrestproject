@@ -1,12 +1,14 @@
 package webService;
 
 import java.util.ArrayList;
+
 import javax.ws.rs.*;
-//import javax.ws.rs.core.MediaType;
-import javax.ws.rs.Path;
+
 import model.AccessManager;
+
 import com.google.gson.Gson;
-import dao.Course;
+
+import dto.Course;
 
 @Path("/status")
 public class Service {

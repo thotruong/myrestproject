@@ -2,10 +2,10 @@ package model;
  
 import java.sql.Connection;
 import java.util.ArrayList;
- 
-import dao.Access;
-import dao.Database;
-import dao.Course;
+
+import dto.Access;
+import dto.Course;
+import dto.Database;
  
 public class AccessManager {
 
